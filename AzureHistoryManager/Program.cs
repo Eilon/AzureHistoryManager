@@ -58,7 +58,7 @@ namespace AzureHistoryManager
 
             // Update all info in Azure
             var resources = await rmc.Resources.ListAsync();
-            await EnsureResorucesHaveCreatorInfo(azure, rmc, resources);
+            await EnsureResourcesHaveCreatorInfo(azure, rmc, resources);
 
             // Retrieve info again and report results
             var updatedResources = await rmc.Resources.ListAsync();
@@ -105,7 +105,7 @@ namespace AzureHistoryManager
             return resource.Tags[tag];
         }
 
-        private static async Task EnsureResorucesHaveCreatorInfo(IAzure azure, ResourceManagementClient rmc, IPage<GenericResourceInner> resources)
+        private static async Task EnsureResourcesHaveCreatorInfo(IAzure azure, ResourceManagementClient rmc, IPage<GenericResourceInner> resources)
         {
             foreach (var res in resources)
             {
