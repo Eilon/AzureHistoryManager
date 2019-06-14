@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureHistoryManager", "AzureHistoryManager\AzureHistoryManager.csproj", "{8F2C7E5C-E4F7-4E8B-AEC1-2A34ABE42860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureHistoryManager", "AzureHistoryManager\AzureHistoryManager.csproj", "{8F2C7E5C-E4F7-4E8B-AEC1-2A34ABE42860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureHistoryUpdater", "AzureHistoryUpdater\AzureHistoryUpdater.csproj", "{DE72089C-3DFD-4729-94A0-C9C8BDB39629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8F2C7E5C-E4F7-4E8B-AEC1-2A34ABE42860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F2C7E5C-E4F7-4E8B-AEC1-2A34ABE42860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F2C7E5C-E4F7-4E8B-AEC1-2A34ABE42860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE72089C-3DFD-4729-94A0-C9C8BDB39629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE72089C-3DFD-4729-94A0-C9C8BDB39629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE72089C-3DFD-4729-94A0-C9C8BDB39629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE72089C-3DFD-4729-94A0-C9C8BDB39629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
